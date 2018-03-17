@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse('Home Page')
+    return HttpResponse('Home Page <br> Type url../music')
